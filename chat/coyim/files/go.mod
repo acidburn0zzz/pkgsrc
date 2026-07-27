@@ -1,6 +1,6 @@
 module github.com/coyim/coyim
 
-go 1.24
+go 1.25.0
 
 require (
 	github.com/TheCreeper/go-notify v0.0.0-20160203001056-b5cd14745a5c
@@ -15,12 +15,12 @@ require (
 	github.com/kardianos/osext v0.0.0-20190222173326-2bc1f35cddc0
 	github.com/miekg/dns v1.1.29
 	github.com/prashantv/gostub v1.0.0
-	github.com/sirupsen/logrus v1.6.0
+	github.com/sirupsen/logrus v1.8.3
 	github.com/stretchr/testify v1.7.0
 	github.com/xdg/stringprep v1.0.0
-	golang.org/x/crypto v0.24.0
-	golang.org/x/net v0.26.0
-	golang.org/x/text v0.16.0
+	golang.org/x/crypto v0.52.0
+	golang.org/x/net v0.54.0
+	golang.org/x/text v0.37.0
 	gopkg.in/check.v1 v1.0.0-20200227125254-8fa46927fb4f
 	howett.net/plist v0.0.0-20200419221736-3b63eb3a43b5
 )
@@ -35,8 +35,8 @@ require (
 	github.com/niemeyer/pretty v0.0.0-20200227124842-a10e7caefd8e // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
 	github.com/stretchr/objx v0.3.0 // indirect
-	golang.org/x/sys v0.21.0 // indirect
-	gopkg.in/yaml.v3 v3.0.0-20210107192922-496545a6307b // indirect
+	golang.org/x/sys v0.45.0 // indirect
+	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
 
 replace github.com/awnumar/memcall => ../github.com/awnumar/memcall@v0.1.2
